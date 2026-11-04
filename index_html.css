@@ -1,4 +1,4 @@
-a { color:#5D5D9E; } 
+a { color:#FF80FF; } 
 a:visited { color:#5D5D9E; } 
 a:active { color:#5C615E; } 
 a:hover { color:#B2B3B4; } 
@@ -18,35 +18,54 @@ html, body { min-height: 100% }
 		animation-direction:alternate-reverse;
 		animation-fill-mode:none;
 }
-body { background-color:#FFFFFF; background-image: url(rc_images/blahaj_726528532.webp); background-position:center center; background-size:cover; padding:0;  margin: 0; }
+body { background-color:#FFFFFF; background-image: url(rc_images/wp6129398_3353524867.png); background-position:center center; background-size:cover; padding:0;  margin: 0; }
 .textstyle1 { text-align:left; }
 #container_594a0821 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:188px; background:none;  }
 #container_594a0821_padding { margin: 10px; display: block;  }
 .textstyle2 { text-align:center; }
-#container_46617e6a { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:16%; min-height:111px; background-color:#80FF00; background-image: url(rc_images/80f4e15b82ad43c611721317748da54a.jpg); background-position:top left; background-size:cover; border: 10px solid #000000;  }
+#container_46617e6a { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:16%; min-height:111px; background-color:#80FF00; background-image: url(rc_images/80f4e15b82ad43c611721317748da54a.jpg); background-position:top left; background-size:cover; border: 10px solid #000000; box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.588235);  }
 #container_46617e6a_padding { margin: 10px; display: block;  }
 #img_4146eb3e { vertical-align: bottom; position:relative; display: inline-block; width:78%; background:none; height:auto;  }
 #container_7a1f4a7c { vertical-align: top; position:relative; display: inline-block; width:91%; min-height:103px; background:none;  }
-#container_7d1752af { box-sizing: border-box; vertical-align: top; border-radius: 25px; position:relative; display: inline-block; width:78%; min-height:85px; background-color:#FFFFFF; background-image: url(rc_images/paper.png); background-position:top left; background-size:cover; border: 6px solid #AFAFAF;  }
+#container_7d1752af { box-sizing: border-box; vertical-align: top; border-radius: 25px; position:relative; display: inline-block; width:78%; min-height:85px; background-color:#FFFFFF; background-image: url(rc_images/paper.png); background-position:top left; background-size:cover; border: 6px solid #AFAFAF; box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.588235);  }
 #container_7d1752af_padding { margin: 10px; display: block;  }
 .textstyle3 { font-size:12pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000;  }
-.ulstyle1 { margin:0; font-size: 12pt; color:#5D5D9E; list-style-position: inside;  }
+.textstyle4 { font-size:22pt; font-family:Impact, Charcoal, sans-serif; color:#000000; font-weight:bold;  }
+.textstyle5 { font-size:10pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#535353;  }
+.ulstyle1 { margin:0; font-size: 12pt; color:#FF80FF; list-style-position: inside;  }
 #container_65b495a2 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:61px; background:none;  }
 #container_65b495a2_padding { margin: 10px; display: block;  }
 #button_4cfbf672 { box-sizing: border-box; vertical-align: bottom; border-radius: 9px; position:relative; display: inline-block; width:90px; height:40px; background-color:#FF0000; background: linear-gradient(to bottom,#FF0000, #720000 50%, #590000 50%, #3F0000); border: 2px solid #800000;  }
 .vcenterstyle1 { display: table; width: 100%; height: 100%; }
 .vcenterstyle2 { display: table-cell; vertical-align: middle; }
-.textstyle4 { font-size:12pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#FFFFFF;  }
+.textstyle6 { font-size:12pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#FFFFFF;  }
 #button_65c7c3f5 { box-sizing: border-box; vertical-align: bottom; border-radius: 9px; position:relative; display: inline-block; width:251px; height:40px; background-color:#00FFFF; background: linear-gradient(to bottom,#00FFFF, #007272 50%, #005959 50%, #003F3F); border: 2px solid #408080;  }
 #button_33793bb5 { box-sizing: border-box; vertical-align: bottom; border-radius: 9px; position:relative; display: inline-block; width:88px; height:40px; background-color:#8080FF; background: linear-gradient(to bottom,#8080FF, #393972 50%, #2C2C59 50%, #20203F); border: 2px solid #200040;  }
 #button_445fda0d { box-sizing: border-box; vertical-align: bottom; border-radius: 9px; position:relative; display: inline-block; width:88px; height:40px; background-color:#0080C0; background: linear-gradient(to bottom,#0080C0, #003956 50%, #002C43 50%, #002030); border: 2px solid #000040;  }
 #button_1fce3f8f { box-sizing: border-box; vertical-align: bottom; border-radius: 9px; position:relative; display: inline-block; width:82px; height:40px; background-color:#CECECE; background: linear-gradient(to bottom,#CECECE, #5C5C5C 50%, #484848 50%, #333333); border: 2px solid #404040;  }
 #button_6c5b77d1 { box-sizing: border-box; vertical-align: bottom; border-radius: 9px; position:relative; display: inline-block; width:150px; height:40px; background-color:#9B6983; background: linear-gradient(to bottom,#9B6983, #452F3A 50%, #36242D 50%, #261A20); border: 2px solid #51373E;  }
 #button_5d6f4aff { box-sizing: border-box; vertical-align: bottom; border-radius: 9px; position:relative; display: inline-block; width:91px; height:40px; background-color:#008000; background: linear-gradient(to bottom,#008000, #003900 50%, #002C00 50%, #002000); border: 2px solid #004000;  }
-#container_3a151bc { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_68dc096 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:584px; background:none;  }
+#container_68dc096_padding { margin: 10px; display: block;  }
+#container_385cb94e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:105px; background:none;  }
+#container_385cb94e_padding { margin: 10px; display: block;  }
+.textstyle7 { font-size:32pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000; font-weight:bold; text-shadow: 2px 2px 2px #FFFFFF;  }
+#container_3c000d03 { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:19%; min-height:187px; background-color:#FFFFFF; background: linear-gradient(to bottom, #7F7F7F, #FFFFFF); border: 5px solid #AFAFAF; box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.588235);  }
+#container_3c000d03_padding { margin: 10px; display: block;  }
+#container_372572cb { vertical-align: top; position:relative; display: inline-block; width:65%; min-height:64px; background:none;  }
+#container_372572cb_padding { margin: 10px; display: block;  }
+.textstyle8 { font-size:20pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#000000;  }
+#img_1ea2dbfe { vertical-align: bottom; position:relative; display: inline-block; width:100%; background:none; height:auto;  }
+.textstyle9 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+#container_38dcaec { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:19%; min-height:187px; background-color:#0000FF; background: linear-gradient(to bottom, #000040, #0000FF); border: 5px solid #000080; box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.588235);  }
+#container_38dcaec_padding { margin: 10px; display: block;  }
+#container_66675b11 { vertical-align: top; position:relative; display: inline-block; width:65%; min-height:64px; background:none;  }
+#container_66675b11_padding { margin: 10px; display: block;  }
+#img_4902854c { vertical-align: bottom; position:relative; display: inline-block; width:61%; background:none; height:auto;  }
+#container_3a151bc { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:185px; background:none;  }
 #container_3a151bc_padding { margin: 10px; display: block;  }
 #img_63851a2 { vertical-align: bottom; position:relative; display: inline-block; width:50%; background-color:#D7D700; background-image: url(rc_images/toolsnodraw.png); background-position:top left; background-repeat:repeat; box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.588235); height:auto;  }
-#container_365f079f { vertical-align: top; position:relative; display: inline-block; width:75%; min-height:700px; background:none;  }
+#container_365f079f { vertical-align: top; border-radius: 15px; position:relative; display: inline-block; width:75%; min-height:1059px; background-color:#FF0000; background: linear-gradient(to bottom, #FF8080, #FF0000); box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.588235);  }
 #container_365f079f_padding { margin: 10px; display: block;  }
 #img_6fab104c { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; margin:5px; width:29%; background:none; border: 5px solid #0000FF; height:auto;  }
 #img_49ec4bae { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; margin:5px; width:18%; background:none; border: 5px solid #80FF00; height:auto;  }
@@ -60,3 +79,6 @@ body { background-color:#FFFFFF; background-image: url(rc_images/blahaj_72652853
 #img_2b8a8e57 { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; margin:5px; width:20%; background:none; border: 5px solid #8080FF; height:auto;  }
 #img_46b0c69c { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; margin:5px; width:20%; background:none; border: 5px solid #FF8000; height:auto;  }
 #img_499f9dd1 { box-sizing: border-box; vertical-align: top; border-radius: 15px; position:relative; display: inline-block; margin:5px; width:20%; background:none; border: 5px solid #808000; height:auto;  }
+#container_2fd91754 { vertical-align: bottom; position:relative; display: inline-block; width:100%; min-height:69px; background:none;  }
+#container_2fd91754_padding { margin: 10px; display: block;  }
+.textstyle10 { font-size:20pt; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; color:#FFFFFF; text-shadow: 2px 2px 2px #000000;  }
