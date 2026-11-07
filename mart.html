@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ellie's Marts</title>
+    <style>
+        h1 {
+            color: #0088FF;
+            text-align: center;
+        }
+
+        .container {
+            margin: -10px;
+            background-color: #FFFFFF;
+            text-align: center;
+        }
+
+        body {
+            background-image: url(rc_images/mart.gif);
+            background-repeat: repeat;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <h1>ellie's Marts</h1>
+    <p>this site spawns a mart on my pc to annoy me</p>
+        <label>Send Mart:</label> <br><br>
+        <input type="text" id="messageInput">
+        <button onclick="sendMessage()">Send</button>
+        <div id="output"></div>
+    </div>
+
+    <script>
+
+        const socket = new WebSocket('ws://localhost:9080');
+
+        socket.onopen = function (event) {
+            alert('You are Connected to ellies marts');
+        };
+
+        socket.onmessage = function (event) {
+
+            const outputDiv = document
+                .getElementById('output');
+
+            outputDiv
+                .innerHTML += `<p>server recieved your mart</p>`;
+        };
+
+        socket.onclose = function (event) {
+
+            console.log('Disconnected from ellies marts');
+        };
+
+
+        function sendMessage() {
+
+            const messageInput = document
+                .getElementById('messageInput');
+
+            const message = messageInput.value;
+
+            socket.send(message);
+
+            messageInput.value = '';
+        }
+    </script>
+</body>
+
+</html>
